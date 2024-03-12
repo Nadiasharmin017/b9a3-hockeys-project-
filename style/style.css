@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-sec{
+    display: flex;
+    text-align: center;
+    align-items: center;
+  
+}

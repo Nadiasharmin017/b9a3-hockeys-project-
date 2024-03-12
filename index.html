@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Hockeys Project</title>
+</head>
+<body>
+    <header>
+        <div class="navbar bg-base-100 shadow">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Page</a>
+                  </li>
+                  <li><a>About</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl text-yellow-700 font-bold">Hockey <span class="text-orange-300">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-lg"><a>Home</a></li>
+                <li class="text-lg"><a>About</a></li>
+                <li class="text-lg"><a>page</a></li>
+                <li class="text-lg"><a>Blog</a></li>
+                <li class="text-lg"><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+              <a class="btn btn-warning">Get Ticket</a>
+            </div>
+          </div>
+          <!-- banner design -->
+          <div class="carousel w-full mt-10">
+            <div id="slide1" class="carousel-item relative w-full text-center justify-center ">
+              <img src="Images/1.png" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full justify-center">
+              <img src="Images/Stadium-Kalinga-680x430.png"/>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+    </header>
+    <!-- main part -->
+    <main>
+     <div class="text-center mt-20">
+        <h1 class="text-3xl font-bold">Professional Hockeys Club</h1>
+        <p>Dit amet consectetur. Condimentum 
+            dignissim adipiscing aliquam turpis <br> placerat dolor.  Purus urna in sit nullam proin. </p>
+     </div>
+     <div class="underline"></div> 
+     <!--  -->
+     <div class="flex text-center justify-center">
+     <div>
+     <div class="radial-progress text-error " style="--value:87;" role="progressbar">87%</div>
+     <h1 class="text-2xl">Prayer Facility</h1>
+     <p>Amet consectetur. <br>Condimentum  dignissim adipiscing .</p>
+    </div>
+    <div>
+     <div class="radial-progress text-success" style="--value:90;" role="progressbar">90%</div>
+     <h1 class="text-2xl">Prayer Facility</h1>
+     <p>Amet consectetur. <br> Condimentum dignissim adipiscing .</p>
+     </div>
+     <div>
+     <div class="radial-progress text-warning" style="--value:65;" role="progressbar">65%</div>
+     <h1 class="text-2xl">Prayer Facility</h1>
+     <p>Amet consectetur. <br> Condimentum dignissim adipiscing .</p>
+     </div>
+     <div>
+     <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
+     <h1 class="text-2xl">Prayer Facility</h1>
+     <p>Amet consectetur. <br> Condimentum  dignissim adipiscing .</p>
+     </div>
+     <!-- <div class="radial-progress" style="--value:100;" role="progressbar">100%</div> -->
+    </div>
+    </div>
+    <!-- Program Sections -->
+    <div class="text-center mt-20">
+        <h1 class="text-3xl font-bold">Program Sections</h1>
+        <p>
+            Hockey isn't merely a sport; it's a canvas where passion, 
+             dedication, and teamwork converge to  <br>paint the picture of 
+             resilience and excellence. </p>
+    </div>
+    <div class="flex justify-center  ">
+        <div class="card w-100 bg-base-100">
+            <figure><img src="Images/2.png" alt="Shoes" /></figure>
+            <div class="card-body absolute text-white">
+              <h2 class="card-title">Junior Program</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                enim sagittis turpis in magna. Id et sed euismod natoque amet  <br>nunc morbi nulla. Tortor congue sed et in.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-error w-52 p-5 mr-56 text-center font-bold justify-items-start">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-100 bg-base-100 ml-10">
+            <figure><img src="Images/3.png" alt="Shoes" /></figure>
+            <div class="card-body absolute text-white">
+              <h2 class="card-title">Teenager Program</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi  nulla. Tortor congue sed et in.</p>
+              <div class="card-actions">
+                <button class="btn btn-error w-52 p-5 text-center font-bold">Register Now!</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="card w-100 bg-base-100 mt-10">
+      <figure><img src="Images/4.png" alt="Shoes" /></figure>
+      <div class="card-body absolute text-center justify-center ml-36 mt-52 text-white">
+        <h2 class="card-title text-3xl font-bold">Teenager Program</h2>
+        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+          enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi  nulla. Tortor congue sed et in.</p>
+        <div class="card-actions">
+          <button class="btn btn-error w-52 p-5 text-center font-bold">Register Now!</button>
+        </div>
+      </div>
+    </div>
+    <!-- Our New Products section -->
+    <div class="text-center mt-10">
+      <h1 class="text-3xl font-bold">Our New Products</h1>
+      <p>Gear up for the Hockey World Cup with our stylish jerseys, <br> durable shoes, and trendy caps.  </p>
+    </div>
+    <!-- product image -->
+    <div class="flex justify-center mt-6">
+      <div class="card card-side bg-base-100 shadow">
+        <figure><img src="Images/5.png" alt="Movie"/></figure>
+        <div class="card-body">
+          <div class="flex">
+            <div class="flex">
+          <img class="w-5"  src="Images/star.png" alt="">
+          <p>5.0</p>
+        </div>
+        <div class="flex">
+          <img class="w-5 ml-10"  src="Images/eye.png" alt="">
+          <p>20</p>
+          </div>
+          <div class="flex">
+          <img class="w-5 ml-10"  src="Images/love.png" alt="">
+          <p>200</p>
+        </div>
+        </div>
+          <h2 class="card-title font-bold">World Cup Flags Football</h2>
+          <p>Gear up for the Hockey World <br> Cup with our stylish jerseys</p>
+          <div class="flex">
+            <span class="text-red-500">Price - $22.00</span>
+            <div class="flex ml-2">
+              <img class="w-5" src="Images/loaded-trolly.png" alt="">
+              <p>Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card-side bg-base-100 shadow ml-6">
+        <figure><img src="Images/6.png" alt="Movie"/></figure>
+        <div class="card-body">
+          <div class="flex">
+            <div class="flex">
+          <img class="w-5"  src="Images/star.png" alt="">
+          <p>5.0</p>
+        </div>
+        <div class="flex">
+          <img class="w-5 ml-10"  src="Images/eye.png" alt="">
+          <p>20</p>
+          </div>
+          <div class="flex">
+          <img class="w-5 ml-10"  src="Images/love.png" alt="">
+          <p>200</p>
+        </div>
+        </div>
+          <h2 class="card-title font-bold">World Cup Flags Football</h2>
+          <p>Gear up for the Hockey World <br> Cup with our stylish jerseys</p>
+          <div class="flex">
+            <span class="text-red-500">Price - $22.00</span>
+            <div class="flex ml-2">
+              <img class="w-5" src="Images/loaded-trolly.png" alt="">
+              <p>Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="flex justify-center mt-6">
+        <div class="card card-side bg-base-100 shadow">
+          <figure><img src="Images/7.png" alt="Movie"/></figure>
+          <div class="card-body">
+            <div class="flex">
+              <div class="flex">
+            <img class="w-5"  src="Images/star.png" alt="">
+            <p>5.0</p>
+          </div>
+          <div class="flex">
+            <img class="w-5 ml-10"  src="Images/eye.png" alt="">
+            <p>20</p>
+            </div>
+            <div class="flex">
+            <img class="w-5 ml-10"  src="Images/love.png" alt="">
+            <p>200</p>
+          </div>
+          </div>
+            <h2 class="card-title font-bold">World Cup Flags Football</h2>
+            <p>Gear up for the Hockey World <br> Cup with our stylish jerseys</p>
+            <div class="flex">
+              <span class="text-red-500">Price - $22.00</span>
+              <div class="flex ml-2">
+                <img class="w-5" src="Images/loaded-trolly.png" alt="">
+                <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-side bg-base-100 shadow ml-6">
+          <figure><img src="Images/8.png" alt="Movie"/></figure>
+          <div class="card-body">
+            <div class="flex">
+              <div class="flex">
+            <img class="w-5"  src="Images/star.png" alt="">
+            <p>5.0</p>
+          </div>
+          <div class="flex">
+            <img class="w-5 ml-10"  src="Images/eye.png" alt="">
+            <p>20</p>
+            </div>
+            <div class="flex">
+            <img class="w-5 ml-10"  src="Images/love.png" alt="">
+            <p>200</p>
+          </div>
+          </div>
+            <h2 class="card-title font-bold">World Cup Flags Football</h2>
+            <p>Gear up for the Hockey World <br> Cup with our stylish jerseys</p>
+            <div class="flex">
+              <span class="text-red-500">Price - $22.00</span>
+              <div class="flex ml-2">
+                <img class="w-5" src="Images/loaded-trolly.png" alt="">
+                <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <div>
+      <div class="flex justify-center">
+        <div class="card card-side bg-base-100 shadow mt-6">
+          <figure><img src="Images/9.png" alt="Movie"/></figure>
+          <div class="card-body">
+            <div class="flex">
+              <div class="flex">
+            <img class="w-5"  src="Images/star.png" alt="">
+            <p>5.0</p>
+          </div>
+          <div class="flex">
+            <img class="w-5 ml-10"  src="Images/eye.png" alt="">
+            <p>20</p>
+            </div>
+            <div class="flex">
+            <img class="w-5 ml-10"  src="Images/love.png" alt="">
+            <p>200</p>
+          </div>
+          </div>
+            <h2 class="card-title font-bold">World Cup Flags Football</h2>
+            <p>Gear up for the Hockey World <br> Cup with our stylish jerseys</p>
+            <div class="flex">
+              <span class="text-red-500">Price - $22.00</span>
+              <div class="flex ml-2">
+                <img class="w-5" src="Images/loaded-trolly.png" alt="">
+                <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-side bg-base-100 shadow ml-6 mt-6">
+          <figure><img src="Images/10.png" alt="Movie"/></figure>
+          <div class="card-body">
+            <div class="flex">
+              <div class="flex">
+            <img class="w-5"  src="Images/star.png" alt="">
+            <p>5.0</p>
+          </div>
+          <div class="flex">
+            <img class="w-5 ml-10"  src="Images/eye.png" alt="">
+            <p>20</p>
+            </div>
+            <div class="flex">
+            <img class="w-5 ml-10"  src="Images/love.png" alt="">
+            <p>200</p>
+          </div>
+          </div>
+            <h2 class="card-title font-bold">World Cup Flags Football</h2>
+            <p>Gear up for the Hockey World <br> Cup with our stylish jerseys</p>
+            <div class="flex">
+              <span class="text-red-500">Price - $22.00</span>
+              <div class="flex ml-2">
+                <img class="w-5" src="Images/loaded-trolly.png" alt="">
+                <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
